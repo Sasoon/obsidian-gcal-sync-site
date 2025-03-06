@@ -208,4 +208,30 @@ footer p {
     .hero h2 {
         font-size: 2rem;
     }
+}
+
+/* Video showcase */
+.video-showcase {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.video-container {
+    max-width: 900px;
+    margin: 20px auto;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.video-container video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.video-caption {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
 } 
